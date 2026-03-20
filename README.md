@@ -114,12 +114,99 @@ Both **baseline (Linear Regression)** and **deep learning models (LSTM, GRU, CNN
 
 ### 🏆 Final Insight:
 > Linear Regression outperformed deep learning models due to strong feature engineering and structured data representation.
+---
+
+## 🚀 Installation & Setup
+
+### 1. Clone the Repository
+```bash
+
+```
+### 2. Create Virtual Environment (Recommended) 
+```bash
+python -m venv env
+source env/bin/activate   # Linux / Mac
+env\Scripts\activate      # Windows
+```
+### 2. Create Virtual Environment (Recommended) 
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ How to Run the Project
+
+### Option 1: Run Notebook
+
+- Open **Jupyter Notebook** or **Google Colab**
+
+- Run the following file:
+
+```bash
+notebooks/EDA.ipynb
+```
+## 💾 Model Saving
+
+Trained model is saved at:
+
+```bash
+models/trained_model.h5
+```
+
+### Load Model
+
+```python
+from tensorflow.keras.models import load_model
+model = load_model("models/trained_model.h5")
+```
+
+---
+
+## 📄 Report
+
+Detailed explanation is available in:
+
+```bash
+reports/report.pdf
+```
+
+### Includes:
+
+- EDA insights  
+- Model design  
+- Evaluation results  
+- Optimization analysis 
 
 
+## 📌 Key Learnings
 
+- Feature engineering is critical in time-series modeling  
+- Deep learning is not always superior  
+- Simpler models can outperform complex ones when data is well-prepared  
+- Model selection must be based on data characteristics  
 
+---
 
+## 🔮 Future Improvements
 
+- Use larger datasets  
+- Apply advanced models (XGBoost, LightGBM)  
+- Implement pure sequence-based deep learning models  
+- Use Bayesian hyperparameter optimization  
+- Incorporate external data (weather, holidays)  
+
+---
+
+## 👤 Author
+
+**A.M. Gaminda Premasiri**  
+Undergraduate – University of Kelaniya  
+AI/ML Enthusiast  
+
+---
+
+## 📜 License
+
+This project is for educational and research purposes.
 
 
 
