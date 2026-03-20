@@ -25,28 +25,34 @@ Both **baseline (Linear Regression)** and **deep learning models (LSTM, GRU, CNN
 - Optimize model performance
 
 ---
+## 📁 Project Structure
 
-## 📂 Project Structure 
 ├── data/
 │   ├── raw/                # Original dataset
-│   
-│
+│   └── processed/          # Cleaned/processed data
 ├── notebooks/
-│   └── EDA.ipynb           # Exploratory Data Analysis (EDA)
-│
+│   └── EDA.ipynb           # Exploratory Data Analysis
 ├── src/
-│   ├── data_preprocessing.py   # Data cleaning and preprocessing scripts
-│   ├── feature_engineering.py  # Feature creation and transformation logic
-│   ├── model.py                # Deep learning model definitions (LSTM, GRU, CNN-LSTM)
-│   └── train.py                # Model training pipeline
-│
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model.py
+│   └── train.py
 ├── models/
 │   └── trained_model.h5    # Saved trained model
-│
 ├── reports/
-│   └── report.pdf          # Final project report
-│
-├── requirements.txt        # Project dependencies
-│
-└── README.md               # Project documentation
+│   └── report.pdf          # Final report
+├── requirements.txt
+└── README.md
+
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               # Project documentation
 
