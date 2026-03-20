@@ -45,18 +45,103 @@ Both **baseline (Linear Regression)** and **deep learning models (LSTM, GRU, CNN
 ├── requirements.txt
 └── README.md
 ```
+---
+
+## ⚙️ Technologies Used
+
+- **Python 3.x**
+- **Pandas, NumPy** → Data manipulation
+- **Matplotlib, Seaborn** → Visualization
+- **Scikit-learn** → Machine learning models
+- **TensorFlow / Keras** → Deep learning models
+
+---
+
+## 📊 Dataset Description
+
+- ~20,000 records
+- 10-minute interval time-series data
+- Features include:
+  - Temperature (T1–T6)
+  - Humidity (RH_1–RH_6)
+  - Weather conditions
+  - Time-based features
+  - Target: **Appliances (energy consumption in Wh)**
+
+---
+
+## 🔄 Workflow
+
+### 1. Data Preprocessing
+- Missing value handling (interpolation)
+- Outlier detection (IQR method)
+- Data scaling (MinMaxScaler)
+- Time-based train-test split
+
+### 2. Feature Engineering
+- Time-based features (hour, day, month)
+- Lag features (lag_1, lag_3, lag_6)
+- Rolling statistics (mean, std)
+- Interaction features
+- Feature selection (RFE, Random Forest)
+
+### 3. Model Development
+- Baseline: Linear Regression
+- Deep Learning:
+  - LSTM
+  - GRU
+  - CNN-LSTM
+
+### 4. Evaluation Metrics
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R² Score
+- MAPE
+
+### 5. Model Optimization
+- Hyperparameter tuning
+- Dropout regularization
+- Early stopping
+- Learning rate scheduling
+
+--- 
+## 📈 Key Results
+
+| Model                 | RMSE  | R²   |
+|----------------------|-------|------|
+| Linear Regression    | 13.79 | 0.67 |
+| CNN-LSTM (Optimized) | 17.17 | 0.49 |
+
+### 🏆 Final Insight:
+> Linear Regression outperformed deep learning models due to strong feature engineering and structured data representation.
+
+
+
+
+
+
 
 
 
                
                
-               
-               
-               
-               
-               
-               
-               
-               
-               # Project documentation
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
