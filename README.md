@@ -27,6 +27,7 @@ Both **baseline (Linear Regression)** and **deep learning models (LSTM, GRU, CNN
 ---
 ## 📁 Project Structure
 
+```bash
 ├── data/
 │   ├── raw/                # Original dataset
 │   └── processed/          # Cleaned/processed data
@@ -43,6 +44,9 @@ Both **baseline (Linear Regression)** and **deep learning models (LSTM, GRU, CNN
 │   └── report.pdf          # Final report
 ├── requirements.txt
 └── README.md
+```
+
+
 
                
                
